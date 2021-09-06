@@ -1,0 +1,29 @@
+.body{
+    padding-top: 120px;
+}
+.page-header{
+    font-family: cursive;
+    color: crimson;
+    padding: 10px;
+}
+button.btn, a.login{
+    border-radius: 18px ;
+    color: teal;
+    background-color: aliceblue;
+    padding: 10px;
+    text-decoration: none;
+}
+a.login{
+    border-radius: 18px ;
+    color: teal;
+    background-color: aliceblue;
+    padding: 10px;
+    margin-top: 4px;
+    text-decoration: none;
+}
+button.btn:hover, a.login:hover{
+    background-color: teal;  
+    color: snow;
+    border-radius: 40px;
+    border: none;
+}

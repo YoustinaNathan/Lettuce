@@ -1,0 +1,27 @@
+.notfound-body{
+    padding-top: 200px;
+    background-image: url("../img/404.jpg");
+    width: auto;
+    height: 500px;
+    background-size: cover;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+.oops {
+    color: crimson;
+    font-family: serif;
+    font-weight: bold;
+    margin: 10px;
+}
+.message{
+    color: indigo;
+    padding: 10px;
+}
+.to-home{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: lightseagreen;
+    color: whitesmoke;
+    text-decoration: none;
+}

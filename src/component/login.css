@@ -1,0 +1,14 @@
+.login-container{
+padding-top: 100px;
+padding-bottom: 20px;
+background-image: url("../img/background1.jpg");
+background-size: cover;
+opacity: 80%;
+}
+.form{
+    margin: 100px;
+}
+.form-label, .form-check-label{
+    color: #00A19D;
+    font-family: serif;
+}

@@ -1,0 +1,77 @@
+.navbar{
+    background-color: #25a18e ;
+    display: flex;
+    position: relative;
+    overflow:inherit;
+}
+.logoImg{
+    width: 220px;
+    height: 60px;
+    padding: 0;
+    margin: 0;
+}
+
+Link.navbar-brand{
+    cursor: pointer;
+}
+.navbar-toggler{
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #d8f3dc;
+    border: 1px solid snow;
+    border-radius: 0.25rem;
+    transition: box-shadow 0.15s ease-in-out;
+}
+
+a.nav-link{
+    color:#E6E6FA;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px;
+    padding-right: 10px;
+    padding-left: 10px;    
+    border: 2px solid lavender;
+    border-radius: 25px 25px 0 25px;
+}
+a.nav-link.active{
+    color: #036666;
+    font-weight: bold;
+    background-color: #d8f3dc;
+    box-shadow: 4px 4px 4px snow;
+}
+
+a.nav-link:hover{
+    color: #036666;
+    font-weight: bold;
+    background-color: #d8f3dc;
+    box-shadow: 4px 4px 4px snow;
+}
+/* .nav-link:{
+    color: whitesmoke;
+    background-color: darkorange;
+    box-shadow: 4px 4px 4px  rgba(51, 143, 51, 0.38);
+} */
+
+.trolly{
+    background-color:lavender;
+    margin: 10px;
+    border-radius: 25px;
+}
+.trolly:hover{
+    color: crimson;
+    font-weight: bold;
+    background-color: lavender;
+    box-shadow:  snow;
+    
+}
+.fa-shopping-cart{
+    padding: 4px;
+    color:crimson;
+    font-weight: bold;
+}
+span.badge{
+    color: crimson;
+    
+}

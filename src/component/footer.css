@@ -1,0 +1,30 @@
+.main-footer{
+    width: 100%;
+    background-color: #EDFFEC; 
+}
+.redirect{
+    padding: 2px;
+}
+.redirect-link{
+    text-decoration: none;
+    color: #467D88;
+    font-size: 16px;
+    font-family: serif;
+    font-weight: bold;
+}
+.redirect-link:hover{
+    color: #6B7AA1;
+}
+hr{
+    margin-left: 20px;
+}
+.fb-contact-img, .ph-contact-img, .whats-contact-img, .email-contact-img{
+    margin: 10px;
+    width:40px;
+    height:40px;
+    border-radius: 20px;
+}
+.fb-contact-img:hover{
+background-image: url('../img/fbc.png');
+}
+

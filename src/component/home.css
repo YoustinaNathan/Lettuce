@@ -1,0 +1,182 @@
+.home{
+    background-color: white;
+}
+.home-banner{
+    margin-top: 80px;
+    padding-top: 160px;
+    padding-bottom: 100px;
+    background-image: url('../img/cover12.jpg');
+    background-size: cover;
+    opacity: 90%;
+}
+main.container {
+    padding: 0;
+    margin-right: 0;
+    margin-left: 0;
+    max-width: inherit;
+}
+.home-banner h1{
+    font-family: ui-monospace;
+    color: snow;
+    padding-top: 100px;
+    padding-left: 15px;
+    font-weight: bold;
+}
+.home-banner p{
+    color: snow;
+    padding-left: 15px;
+    font-size: 22px;
+}
+
+
+h1.welcome{
+    color: crimson;
+    padding-top: 20px;
+    padding-left: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+p.welcome{
+    padding: 20px;
+    align-content: center;
+    color: darkblue;
+}
+
+.reviews-slider{
+    padding: 20px;
+    margin: 20px;    
+    background-color: floralwhite;
+}
+ul#review_slider_content {
+    list-style-type: none;
+    text-align: center;
+}
+li.card{
+    margin: 0;
+    border-radius: 50px 50px 0 50px;
+}
+
+.card:hover{
+    border-bottom: 2px groove thistle;
+    border-right: 2px groove thistle;
+}
+.card-img{
+    width: 100px;
+    height: 150px;
+}
+.card-title{
+    font-size: 24px;
+    color: crimson;
+}
+.card-price{
+    color: gray;
+}
+a.linknav {
+    color: #C10000;
+    text-decoration: none;
+    border-bottom: 2px solid thistle;
+    border-right: 2px solid thistle;
+    padding: 12px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: serif;
+    background-color: #F8EFF8;
+}
+a.linknav:hover{
+    background: thistle;
+    color: snow;
+    border-bottom: 2px solid #B079B0;
+    border-right: 2px solid #B079B0;
+}
+
+.steps{
+    background-color: rgba(244, 227, 255, 0.45);
+    margin: 20px;
+    padding: 20px;
+    flex: inherit;
+}
+.steps-title{
+    color: teal;
+    font-family: cursive;
+    padding: 20px;
+}
+.step-card-body img{
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    margin: 0px;
+    transition: width 0.5s, height 0.1s;
+}
+.step-card-body img:hover{
+    width: 210px;
+    height: 210px;
+}
+.step-card-body p{
+    padding-top: 10px;
+    color: brown;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 24px;
+}
+
+/*--------------------------------------------------- */
+.info{
+    background-color: white;
+    margin: 10px;  
+    padding: 20px;  
+}
+.info h1{
+    color: teal;
+    font-family:cursive;
+}
+.about-card-body img{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 100px;
+}
+.aboutcard{
+    padding: 20px;
+}
+.aboutcard:hover{
+    border-bottom: 2px solid powderblue;
+    border-right: 2px solid powderblue;
+    border-radius: 100px 100px 0 100px;
+    background-color: aliceblue;
+}
+.readbtn{
+    text-decoration: none;
+    text-align: center;
+    color: lightseagreen;
+    background-color: #ebf2fa;
+    border-right: 1px solid cadetblue;
+    border-bottom: 1px solid cadetblue;
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+.readbtn:hover{
+    background-color: cadetblue;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+    border-right: 2px solid #3F6B6C;
+    border-bottom: 2px solid #3F6B6C;
+}
+
+/* .addbtn{
+    background-color: white;
+    color: purple;
+    border-right: 1px solid crimson;    
+    border-bottom: 1px solid crimson;
+    border-top: none;
+    border-left: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+.addbtn:hover{
+    background-color: crimson;
+    color: white;
+    border-right: 1px solid #8B0C25;    
+    border-bottom: 1px solid #8B0C25;
+} */
